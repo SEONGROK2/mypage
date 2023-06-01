@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>NETSTUDIO</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">
+            NETSTUDIO
+        </h1>
+    </header>
+
+    <form class="movie_search" onsubmit="handleSearch(event)" id="search_form">
+        <!-- onsubmit : 양식 제출 이벤트가 발생할 때의 동작을 지정한다. -->
+        <!-- <form> 태그 내부에서 <button type="submit">로 인해 발생하는 이벤트를 처리 -->
+        <label></label>
+        <input class="s_input" type="text" id="search_input" placeholder="Search">
+        <button class="s_btn" type="submit" id="search_btn">🔍︎</button>
+    </form>
+    
+    <!-- <div id="movieCards"></div> -->
+    <div id="movie-container"></div>
+
+    <script src="src/PJT.js"></script>
+</body>
+
+</html>

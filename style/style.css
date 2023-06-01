@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./NetflixFont.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white
+}
+
+
+.header {
+    color: red;
+    font-size: 150px;
+
+    text-align: center;
+
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.movie_search {
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_input {
+    margin-left: 20px;
+    min-width: 200px;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.s_btn {
+    margin-left: 10px;
+    padding: 5px;
+
+    background-color: white;
+    color: black;
+    font-size: 13px;
+
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.s_btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.card:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vote {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 15px;
+}
